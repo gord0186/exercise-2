@@ -134,6 +134,13 @@ body{
 	}
 }
 
+.panther{
+
+	&:hover{
+		color: $yellow;
+	}
+}
+
 .qwote-btn:hover{
 
 	.second{
@@ -147,43 +154,38 @@ body{
 
 	.iron {
 		margin-top: -100px;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 
 	.thor {
 		margin-left: 70px;
 		margin-top: -70px;
 		font-size: 3.25rem;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 
 	.captain {
 		margin-left: 100px;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 
 	
 	.hulk {
 		margin-left: 70px;
 		margin-top: 70px;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 	
 	.widow {
 		margin-top: 100px;
 		padding-top: .25rem;
 		font-size: 3rem;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 
 	}
 
@@ -191,24 +193,21 @@ body{
 		margin-left: -70px;
 		margin-top:70px;
 		font-size: 3rem;
-		animation: btn-rotate .75s ease;
-		transition: all 0.5s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 
 	.shield {
 		margin-left: -100px;
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 
 	.panther{
 		margin-left: -70px;
 		margin-top: -70px; 
-		animation: btn-rotate .75s ease;
-		transition: all 0.75s ease;
-		animation-fill-mode: both;
+
+		@include animation;
 	}
 }
 

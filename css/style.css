@@ -121,6 +121,10 @@ body {
   background: white;
 }
 
+.panther:hover {
+  color: yellow;
+}
+
 .qwote-btn:hover .second {
   font-size: 3.5rem;
   border-radius: 400px;
@@ -186,7 +190,7 @@ body {
   font-size: 3rem;
   -webkit-animation: btn-rotate .75s ease;
           animation: btn-rotate .75s ease;
-  transition: all 0.5s ease;
+  transition: all 0.75s ease;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
