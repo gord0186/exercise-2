@@ -1,0 +1,132 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html{
+
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: $sans-serif;
+	width: 100%;
+	margin: 0;
+
+}
+
+.pic{
+	margin: 0;
+	padding: 0;
+}
+
+.background{
+	width: 100%;
+	height: 27.5rem;
+	background: $orange;
+	z-index: 1;
+	opacity: .5;
+	position: absolute;
+}
+
+.image {
+
+	img{
+		width: 100%;
+		height: 30rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: inline-block;
+	}
+}
+
+.icon {
+	text-decoration: none;
+	color: $white;
+	font-size: 80px;
+	position: absolute;
+	top: 200px
+}
+
+.main {
+	z-index: 8;
+	margin-top: -77px;
+	margin-left: -72px;
+	z-index: 1;
+	padding: 60px;
+	opacity: 100%;
+}
+
+.second{
+	font-size: 0;
+	z-index: 2;
+	color: rgba(0,0,0,.4);
+
+}
+.group{
+	top: 200px;
+	text-align: center;
+}
+
+.qwote-btn{
+	position: relative;
+	top: 40%;
+	padding: 20px;
+}
+
+.iron{
+
+	&:hover{
+	color: $yellow;
+	background-color: $red ;
+	}
+}
+
+.thor{
+
+	&:hover{
+	color: $light-blue;
+	}
+
+}
+.captain{
+
+	&:hover{
+		color: $white;
+		background-color: $blue;
+	}
+}
+
+.hulk{
+
+	&:hover{	
+		color: $green;
+	}
+}
+
+.widow{
+
+	&:hover{
+		color: $red;
+	}
+}
+.hawk{
+
+	&:hover{
+		color: $purple;
+	}
+}
+
+.shield{
+
+	&:hover{
+		color: $black;
+		background: $white;
+	}
+}
+
+
