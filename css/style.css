@@ -205,4 +205,26 @@ html {
           animation-fill-mode: both;
 }
 
+@-webkit-keyframes btn-rotate {
+  0% {
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes btn-rotate {
+  0% {
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
