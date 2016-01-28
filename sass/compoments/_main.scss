@@ -18,6 +18,11 @@ html{
 
 }
 
+body{
+	margin:0;
+	padding: 0;
+}
+
 .pic{
 	margin: 0;
 	padding: 0;
@@ -132,13 +137,14 @@ html{
 .qwote-btn:hover{
 
 	.second{
-	font-size: 3.5rem;
-	border-radius: 400px;
-	line-height: 0px;
-	width: 3.5rem;
-	height: 3.5rem;
-	display: inherit-block;
-}
+		font-size: 3.5rem;
+		border-radius: 400px;
+		line-height: 0px;
+		width: 3.5rem;
+		height: 3.5rem;
+		display: inherit-block;
+	}
+
 	.iron {
 		margin-top: -100px;
 		animation: btn-rotate .75s ease;
