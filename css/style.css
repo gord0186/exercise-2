@@ -116,4 +116,93 @@ html {
   background: white;
 }
 
+.qwote-btn:hover .second {
+  font-size: 3.5rem;
+  border-radius: 400px;
+  line-height: 0px;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inherit-block;
+}
+
+.qwote-btn:hover .iron {
+  margin-top: -100px;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .thor {
+  margin-left: 70px;
+  margin-top: -70px;
+  font-size: 3.25rem;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .captain {
+  margin-left: 100px;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .hulk {
+  margin-left: 70px;
+  margin-top: 70px;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .widow {
+  margin-top: 100px;
+  padding-top: .25rem;
+  font-size: 3rem;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .hawk {
+  margin-left: -70px;
+  margin-top: 70px;
+  font-size: 3rem;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.5s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .shield {
+  margin-left: -100px;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.qwote-btn:hover .panther {
+  margin-left: -70px;
+  margin-top: -70px;
+  -webkit-animation: btn-rotate .75s ease;
+          animation: btn-rotate .75s ease;
+  transition: all 0.75s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 /*# sourceMappingURL=style.css.map */

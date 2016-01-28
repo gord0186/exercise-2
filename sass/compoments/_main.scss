@@ -129,4 +129,79 @@ html{
 	}
 }
 
+.qwote-btn:hover{
 
+	.second{
+	font-size: 3.5rem;
+	border-radius: 400px;
+	line-height: 0px;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: inherit-block;
+}
+	.iron {
+		margin-top: -100px;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+
+	.thor {
+		margin-left: 70px;
+		margin-top: -70px;
+		font-size: 3.25rem;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+
+	.captain {
+		margin-left: 100px;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+
+	
+	.hulk {
+		margin-left: 70px;
+		margin-top: 70px;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+	
+	.widow {
+		margin-top: 100px;
+		padding-top: .25rem;
+		font-size: 3rem;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+
+	}
+
+	.hawk {
+		margin-left: -70px;
+		margin-top:70px;
+		font-size: 3rem;
+		animation: btn-rotate .75s ease;
+		transition: all 0.5s ease;
+		animation-fill-mode: both;
+	}
+
+	.shield {
+		margin-left: -100px;
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+
+	.panther{
+		margin-left: -70px;
+		margin-top: -70px; 
+		animation: btn-rotate .75s ease;
+		transition: all 0.75s ease;
+		animation-fill-mode: both;
+	}
+}
